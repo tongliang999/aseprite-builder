@@ -23,6 +23,7 @@ jobs:
         with:
             group: aseprite
             repo: aseprite
+            tag: v1.2.31
             match: Aseprite-v1.2.31-Source.zip
 
   create-release:
