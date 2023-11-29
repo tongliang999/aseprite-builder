@@ -23,7 +23,7 @@ jobs:
         with:
             group: aseprite
             repo: aseprite
-            match: Aseprite-.*?-Source.zip
+            match: Aseprite-1.2.30-Source.zip
 
   create-release:
     name: Create Release
