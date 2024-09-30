@@ -1,4 +1,4 @@
-name: Build and release Aseprite
+name: Build and release Aseprite1.2.25
 
 on:
   push:
