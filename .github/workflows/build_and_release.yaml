@@ -1,4 +1,4 @@
-name: Build and release Aseprite1.2.25
+name: Build and release Aseprite
 
 on:
   push:
@@ -23,8 +23,8 @@ jobs:
         with:
             group: aseprite
             repo: aseprite
-            tag: v1.2.25
-            match: Aseprite-v1.2.25-Source.zip
+            tag: v1.2.26
+            match: Aseprite-v1.2.26-Source.zip
 
   create-release:
     name: Create Release
