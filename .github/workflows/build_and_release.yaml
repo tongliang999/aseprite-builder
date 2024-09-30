@@ -70,7 +70,7 @@ jobs:
         with:
             group: aseprite
             repo: skia
-            match: Skia-${{ runner.os }}-Release-x64(-libstdc\+\+)?.zip
+            match: Skia-${{ runner.os }}-Release-x64.zip
       - name: Download Skia
         run: |
           curl -o Skia-${{ runner.os }}-Release-x64.zip -L ${{ steps.skia-link.outputs.download-link }}
